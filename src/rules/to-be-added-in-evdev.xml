@@ -1,0 +1,12 @@
+        <variant>
+          <configItem>
+            <name>bepo-code-azerty</name>
+            <description>French (Bepo-Code-Azerty, ergonomic, Dvorak way, Active on Caps Lock)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>bepo-code-qwerty</name>
+            <description>French (Bepo-Code-Qwerty, ergonomic, Dvorak way, Active on Caps Lock)</description>
+          </configItem>
+        </variant>
