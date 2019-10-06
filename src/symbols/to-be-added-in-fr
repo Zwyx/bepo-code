@@ -16,7 +16,7 @@
 // ┃ Win   ┃                                                                    ┃          ┃
 // ┡━━━━━┯━┹───┬─────┲━━━━━┱─────┬─────┬─────┬─────┲━━━━━┳━━━━━┳━━━━━┱─────┬────┺┳━━━━━━━━━┫
 // │   „§│ « “‘│ » ”’┃     ┃ • —≤│   ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃         ┃
-// │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ +  !│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃         ┃
+// │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃         ┃
 // ┢━━━━━┷━┱───┴─┬───┺━┯━━━┹─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━┻━┯━━━┻━┯━━━┹─┬───┴─┬───┺━┳━━━━━━━┫
 // ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F   │ M   │ µ ÆŒ┃Entrée ┃
 // ┃Tab ↹  ┃ b  <│ é  >│ p ?[│ o !]│ è   │ z  =│ v ⇇7│ d ↑8│ l ⇉9│ f  *│ m  /│ ^ æœ┃   ⏎   ┃
@@ -25,7 +25,7 @@
 // ┃Shift ⇧ ┃ a à/│ u ù\│ i -(│ e ê)│ , ::│ c ç%│ t ←4│ s ↓5│ r →6│ n  +┃ ⇧   ┃│ˆ `µ│┃     ┃
 // ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┺━━━━┳┻━━━━━━┻━━━━━┫
 // ┃       ┃ Ê   │ W  7│ Y  8│ X  9│ ;  .│ K  ,│ ' " │ Q ` │ G   │ H   │ J   ┃             ┃
-// ┃Ctrl   ┃ ê / │ w   │ y  {│ x  }│ . ;;│ k ~,│ ' =.│ q /1│ g $2│ h #3│ j @-┃             ┃
+// ┃Ctrl   ┃ ê / │ w   │ y  {│ x "}│ . ;;│ k ~,│ ' /.│ q =1│ g $2│ h #3│ j @-┃             ┃
 // ┣━━━━━━━╋━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━━┛
 // ┃       ┃       ┃       ┃ Espace insécable       0          ┃       ┃       ┃       ┃
 // ┃CapsLk ┃Alt    ┃Hyper  ┃ ␣ (Espace)         _   0          ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
@@ -114,11 +114,11 @@ xkb_symbols "bepo-code-azerty" {
     key <LSGT> { [           less,        greater,    ecircumflex,    Ecircumflex,          slash                                                 ] };
     key <AB01> { [              s,              S,              w,              W,           none,           none,           none,              7 ] };
     key <AB02> { [              x,              X,              y,              Y,           none,           none,      braceleft,              8 ] };
-    key <AB03> { [              c,              C,              x,              X,           none,           none,     braceright,              9 ] };
+    key <AB03> { [              c,              C,              x,              X,       quotedbl,           none,     braceright,              9 ] };
     key <AB04> { [              v,              V,         period,      semicolon,      semicolon,           none,      semicolon,         period ] };
     key <AB05> { [              b,              B,              k,              K,     asciitilde,           none,          comma,          comma ] };
-    key <AB06> { [              n,              N,     apostrophe,     apostrophe,          equal,       quotedbl,         period                 ] };
-    key <AB07> { [          comma,       question,              q,              Q,          slash,          grave,              1                 ] };
+    key <AB06> { [              n,              N,     apostrophe,     apostrophe,          slash,       quotedbl,         period                 ] };
+    key <AB07> { [          comma,       question,              q,              Q,          equal,          grave,              1                 ] };
     key <AB08> { [      semicolon,         period,              g,              G,         dollar,           none,              2                 ] };
     key <AB09> { [          colon,          slash,              h,              H,     numbersign,           none,              3                 ] };
     key <AB10> { [         exclam,        section,              j,              J,             at,           none,          minus                 ] };
@@ -144,7 +144,7 @@ xkb_symbols "bepo-code-azerty" {
 // ┃ Win   ┃                                                                    ┃         ┃
 // ┡━━━━━┯━┹───┬─────┲━━━━━┱─────┬─────┬─────┬─────┲━━━━━┳━━━━━┳━━━━━┱─────┬────┺┳━━━━━━━━┫
 // │   „§│ « “‘│ » ”’┃     ┃ • —≤│   ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃        ┃
-// │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ +  !│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃        ┃
+// │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃        ┃
 // ┢━━━━━┷━┱───┴─┬───┺━┯━━━┹─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━┻━┯━━━┻━┯━━━┹─┬───┴─┬───┺━┯━━━━━━┩
 // ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F   │ M   │ µ ÆŒ││¨ ˊ¤││
 // ┃Tab ↹  ┃ b  <│ é  >│ p ?[│ o !]│ è   │ z  =│ v ⇇7│ d ↑8│ l ⇉9│ f  *│ m  /│ ^ æœ││ˆ `µ││
@@ -153,7 +153,7 @@ xkb_symbols "bepo-code-azerty" {
 // ┃Shift ⇧ ┃ a à/│ u ù\│ i -(│ e ê)│ , ::│ c ç%│ t ←4│ s ↓5│ r →6│ n  +┃ ⇧   ┃ ⏎         ┃
 // ┣━━━━━━━━┻━━━━┱┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┺━━━━┳┻━━━━━━━━━━━┫
 // ┃             ┃ W  7│ Y  8│ X  9│ ;  .│ K  ,│ ' " │ Q ` │ G   │ H   │ J   ┃            ┃
-// ┃Ctrl         ┃ w   │ y  {│ x  }│ . ;;│ k ~,│ ' =.│ q /1│ g $2│ h #3│ j @-┃            ┃
+// ┃Ctrl         ┃ w   │ y  {│ x "}│ . ;;│ k ~,│ ' /.│ q =1│ g $2│ h #3│ j @-┃            ┃
 // ┣━━━━━━━┳━━━━━┻━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━┛
 // ┃       ┃       ┃       ┃ Espace insécable       0          ┃       ┃       ┃       ┃
 // ┃CapsLk ┃Alt    ┃Hyper  ┃ ␣ (Espace)         _   0          ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
@@ -241,11 +241,11 @@ xkb_symbols "bepo-code-qwerty" {
     // Fourth row
     key <AB01> { [              z,              Z,              w,              W,           none,           none,           none,              7 ] };
     key <AB02> { [              x,              X,              y,              Y,           none,           none,      braceleft,              8 ] };
-    key <AB03> { [              c,              C,              x,              X,           none,           none,     braceright,              9 ] };
+    key <AB03> { [              c,              C,              x,              X,       quotedbl,           none,     braceright,              9 ] };
     key <AB04> { [              v,              V,         period,      semicolon,      semicolon,           none,      semicolon,         period ] };
     key <AB05> { [              b,              B,              k,              K,     asciitilde,           none,          comma,          comma ] };
-    key <AB06> { [              n,              N,     apostrophe,     apostrophe,          equal,       quotedbl,         period                 ] };
-    key <AB07> { [              m,              M,              q,              Q,          slash,          grave,              1                 ] };
+    key <AB06> { [              n,              N,     apostrophe,     apostrophe,          slash,       quotedbl,         period                 ] };
+    key <AB07> { [              m,              M,              q,              Q,          equal,          grave,              1                 ] };
     key <AB08> { [          comma,           less,              g,              G,         dollar,           none,              2                 ] };
     key <AB09> { [         period,        greater,              h,              H,     numbersign,           none,              3                 ] };
     key <AB10> { [          slash,       question,              j,              J,             at,           none,          minus                 ] };
