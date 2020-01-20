@@ -286,3 +286,4 @@ When Caps Lock is ON:
       │¤│ + [abcdefgh jklmnop rstu w y ] = ؋฿¢₫€ƒ₲₴﷼ ₭£₥₦௹₰ ₢₪৳元 ₩ ¥
 │¤│ + Shift+[abcdefgh jklmnop rstu w y ] = ₳₱₡₯₠₣₲₴៛ ₭₤ℳ₦૱₧ ₨$₮圓 ₩ 円
 ```
+
