@@ -25,7 +25,7 @@
 // ┃Shift ⇧ ┃ a à/│ u ù\│ i -(│ e ê)│ , ::│ c ç%│ t ←4│ s ↓5│ r →6│ n  +┃ ⇧   ┃│ˆ `µ│┃     ┃
 // ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┺━━━━┳┻━━━━━━┻━━━━━┫
 // ┃       ┃ Ê   │ W  7│ Y  8│ X  9│ ;  .│ K  ,│ ' " │ Q ` │ G   │ H   │ J   ┃             ┃
-// ┃Ctrl   ┃ ê / │ w   │ y  {│ x "}│ . ;;│ k ~,│ ' /.│ q =1│ g $2│ h #3│ j @-┃             ┃
+// ┃Ctrl   ┃ ê / │ w   │ y `{│ x "}│ . ;;│ k ~,│ ' /.│ q =1│ g $2│ h #3│ j @-┃             ┃
 // ┣━━━━━━━╋━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━━┛
 // ┃       ┃       ┃       ┃ Espace insécable       0          ┃       ┃       ┃       ┃
 // ┃CapsLk ┃Alt    ┃Hyper  ┃ ␣ (Espace)         _   0          ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
@@ -113,7 +113,7 @@ xkb_symbols "bepo-code-azerty" {
     // Fourth row
     key <LSGT> { [           less,        greater,    ecircumflex,    Ecircumflex,          slash                                                 ] };
     key <AB01> { [              s,              S,              w,              W,           none,           none,           none,              7 ] };
-    key <AB02> { [              x,              X,              y,              Y,           none,           none,      braceleft,              8 ] };
+    key <AB02> { [              x,              X,              y,              Y,          grave,           none,      braceleft,              8 ] };
     key <AB03> { [              c,              C,              x,              X,       quotedbl,           none,     braceright,              9 ] };
     key <AB04> { [              v,              V,         period,      semicolon,      semicolon,           none,      semicolon,         period ] };
     key <AB05> { [              b,              B,              k,              K,     asciitilde,           none,          comma,          comma ] };
@@ -153,7 +153,7 @@ xkb_symbols "bepo-code-azerty" {
 // ┃Shift ⇧ ┃ a à/│ u ù\│ i -(│ e ê)│ , ::│ c ç%│ t ←4│ s ↓5│ r →6│ n  +┃ ⇧   ┃ ⏎         ┃
 // ┣━━━━━━━━┻━━━━┱┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┺━━━━┳┻━━━━━━━━━━━┫
 // ┃             ┃ W  7│ Y  8│ X  9│ ;  .│ K  ,│ ' " │ Q ` │ G   │ H   │ J   ┃            ┃
-// ┃Ctrl         ┃ w   │ y  {│ x "}│ . ;;│ k ~,│ ' /.│ q =1│ g $2│ h #3│ j @-┃            ┃
+// ┃Ctrl         ┃ w   │ y `{│ x "}│ . ;;│ k ~,│ ' /.│ q =1│ g $2│ h #3│ j @-┃            ┃
 // ┣━━━━━━━┳━━━━━┻━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━┛
 // ┃       ┃       ┃       ┃ Espace insécable       0          ┃       ┃       ┃       ┃
 // ┃CapsLk ┃Alt    ┃Hyper  ┃ ␣ (Espace)         _   0          ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
@@ -240,7 +240,7 @@ xkb_symbols "bepo-code-qwerty" {
 
     // Fourth row
     key <AB01> { [              z,              Z,              w,              W,           none,           none,           none,              7 ] };
-    key <AB02> { [              x,              X,              y,              Y,           none,           none,      braceleft,              8 ] };
+    key <AB02> { [              x,              X,              y,              Y,          grave,           none,      braceleft,              8 ] };
     key <AB03> { [              c,              C,              x,              X,       quotedbl,           none,     braceright,              9 ] };
     key <AB04> { [              v,              V,         period,      semicolon,      semicolon,           none,      semicolon,         period ] };
     key <AB05> { [              b,              B,              k,              K,     asciitilde,           none,          comma,          comma ] };
