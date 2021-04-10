@@ -2,6 +2,23 @@
 
 Customised Bépo XKB keyboard layout for code, English, and French; with Azerty/Qwerty shortcuts.
 
+For information about installation, see the [bepo-xxerty](https://github.com/Zwyx/bepo-xxerty) project.
+
+## Key points
+
+- **Bépo** layout, slightly customised.
+- **Azerty/Qwerty shortcuts** — `Ctrl+X/C/V` are still together under the left hand.
+- **Number pad** under the right hand, accessible with `Hyper` (`Alt`).
+- **Code symbols** — `()[]{}<>/\` — under the left hand, accessible with `Hyper`.
+- **Arrow keys** — plus `Home` & `End` — under the right hand, accessible with `AltGr`.
+- `Shift`, `Ctrl`, `Escape`, `Delete` and `Backspace` brought closer to where the fingers rest.
+
+I have been using this layout every days since I created it in 2019. People seeing me typing note:
+
+- My hands do not move, only my fingers do.
+- I do not look at my keyboard.
+- I navigate/select in a text with ease, character by character, word by word, line by line.
+- I enter lots of unusual characters easily.
 
 ## Preview
 

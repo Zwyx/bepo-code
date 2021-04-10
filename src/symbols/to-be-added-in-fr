@@ -5,6 +5,8 @@
 //
 // The keyboard shortcuts (Ctrl+C, etc.) remain at their physical positions.
 //
+// By Zwyx – https://github.com/Zwyx
+//
 // When Caps Lock is ON:
 //  ┌─────┐
 //  │ N AH│     N = Shift      A = AltGr + Shift     H = Hyper + Shift
@@ -132,6 +134,8 @@ xkb_symbols "bepo-code-azerty" {
 // Qwerty when Caps Lock is OFF ; Bépo-Code when Caps Lock is ON
 //
 // The keyboard shortcuts (Ctrl+C, etc.) remain at their physical positions.
+//
+// By Zwyx – https://github.com/Zwyx
 //
 // When Caps Lock is ON:
 //  ┌─────┐
