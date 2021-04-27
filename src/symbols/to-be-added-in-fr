@@ -17,7 +17,7 @@
 // ┃       ┃                                                                    ┃          ┃
 // ┃ Win   ┃                                                                    ┃          ┃
 // ┡━━━━━┯━┹───┬─────┲━━━━━┱─────┬─────┬─────┬─────┲━━━━━┳━━━━━┳━━━━━┱─────┬────┺┳━━━━━━━━━┫
-// │   „§│ « “‘│ » ”’┃     ┃ • —≤│   ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃         ┃
+// │   „§│ « “‘│ » ”’┃     ┃ • —≤│ · ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃         ┃
 // │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃         ┃
 // ┢━━━━━┷━┱───┴─┬───┺━┯━━━┹─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━┻━┯━━━┻━┯━━━┹─┬───┴─┬───┺━┳━━━━━━━┫
 // ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F   │ M   │ µ ÆŒ┃Entrée ┃
@@ -71,7 +71,7 @@ xkb_symbols "bepo-code-azerty" {
     key <AE02> { [         eacute,              2,      apostrophe, guillemotright,            bar, rightdoublequotemark,      bar, rightsinglequotemark ] };
     key <AE03> { [       quotedbl,              3,          Escape,         Escape                                                                 ] };
     key <AE04> { [     apostrophe,              4,           minus,          U2022,         endash,         emdash,       question, lessthanequal  ] };
-    key <AE05> { [      parenleft,              5,            plus,           none,       EuroSign,      plusminus,         exclam, greaterthanequal ] };
+    key <AE05> { [      parenleft,              5,            plus,          U00B7,       EuroSign,      plusminus,         exclam, greaterthanequal ] };
     key <AE06> { [          minus,              6,        asterisk,           none,       sterling,           none,       multiply                 ] };
     key <AE07> { [         egrave,              7,           slash,           none,            yen,           none,       division                 ] };
     key <AE08> { [     underscore,              8,          Delete,         Delete                                                                 ] };
@@ -147,7 +147,7 @@ xkb_symbols "bepo-code-azerty" {
 // ┃       ┃                                                                    ┃         ┃
 // ┃ Win   ┃                                                                    ┃         ┃
 // ┡━━━━━┯━┹───┬─────┲━━━━━┱─────┬─────┬─────┬─────┲━━━━━┳━━━━━┳━━━━━┱─────┬────┺┳━━━━━━━━┫
-// │   „§│ « “‘│ » ”’┃     ┃ • —≤│   ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃        ┃
+// │   „§│ « “‘│ » ”’┃     ┃ • —≤│ · ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃        ┃
 // │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃        ┃
 // ┢━━━━━┷━┱───┴─┬───┺━┯━━━┹─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━┻━┯━━━┻━┯━━━┹─┬───┴─┬───┺━┯━━━━━━┩
 // ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F   │ M   │ µ ÆŒ││¨ ˊ¤││
@@ -201,7 +201,7 @@ xkb_symbols "bepo-code-qwerty" {
     key <AE02> { [              2,             at,     apostrophe, guillemotright,            bar, rightdoublequotemark,      bar, rightsinglequotemark ] };
     key <AE03> { [              3,     numbersign,         Escape,         Escape                                                                 ] };
     key <AE04> { [              4,         dollar,          minus,          U2022,         endash,         emdash,       question, lessthanequal  ] };
-    key <AE05> { [              5,        percent,           plus,           none,       EuroSign,      plusminus,         exclam, greaterthanequal ] };
+    key <AE05> { [              5,        percent,           plus,          U00B7,       EuroSign,      plusminus,         exclam, greaterthanequal ] };
     key <AE06> { [              6,    asciicircum,       asterisk,           none,       sterling,           none,       multiply                 ] };
     key <AE07> { [              7,      ampersand,          slash,           none,            yen,           none,       division                 ] };
     key <AE08> { [              8,       asterisk,         Delete,         Delete                                                                 ] };
