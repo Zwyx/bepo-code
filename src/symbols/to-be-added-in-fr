@@ -20,7 +20,7 @@
 // │   „§│ « “‘│ » ”’┃     ┃ • —≤│ · ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃         ┃
 // │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃         ┃
 // ┢━━━━━┷━┱───┴─┬───┺━┯━━━┹─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━┻━┯━━━┻━┯━━━┹─┬───┴─┬───┺━┳━━━━━━━┫
-// ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F   │ M   │ µ ÆŒ┃Entrée ┃
+// ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F  ✓│ M  ✗│ µ ÆŒ┃Entrée ┃
 // ┃Tab ↹  ┃ b  <│ é  >│ p ?[│ o !]│ è   │ z  =│ v ⇇7│ d ↑8│ l ⇉9│ f  *│ m  /│ ^ æœ┃   ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┲━━━━┷┱────┺━┓     ┃
 // ┃        ┃ A À4│ U Ù5│ I  6│ E Ê%│ :   │ C Ç©│ T ⇧←│ S ⇧↓│ R ⇧→│ N   ┃     ┃│¨ ˊ¤│┃     ┃
@@ -92,8 +92,8 @@ xkb_symbols "bepo-code-azerty" {
     key <AD08> { [              i,              I,              d,              D,             Up,           none,              8,          U2191 ] };
     key <AD09> { [              o,              O,              l,              L,            End,           none,              9,          U2195 ] };
     key.type[group1]="BEPO_XXERTY_HYPER";
-    key <AD10> { [              p,              P,              f,              F,           none,           none,       asterisk                 ] };
-    key <AD11> { [ dead_circumflex, dead_diaeresis,             m,              M,           none,           none,          slash                 ] };
+    key <AD10> { [              p,              P,              f,              F,           none,           none,       asterisk,          U2713 ] };
+    key <AD11> { [ dead_circumflex, dead_diaeresis,             m,              M,           none,           none,          slash,          U2717 ] };
     key <AD12> { [         dollar,       sterling,    asciicircum,             mu,             ae,             AE,             oe,             OE ] };
 
     // Third row
@@ -150,7 +150,7 @@ xkb_symbols "bepo-code-azerty" {
 // │   „§│ « “‘│ » ”’┃     ┃ • —≤│ · ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃        ┃
 // │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃        ┃
 // ┢━━━━━┷━┱───┴─┬───┺━┯━━━┹─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━┻━┯━━━┻━┯━━━┹─┬───┴─┬───┺━┯━━━━━━┩
-// ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F   │ M   │ µ ÆŒ││¨ ˊ¤││
+// ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F  ✓│ M  ✗│ µ ÆŒ││¨ ˊ¤││
 // ┃Tab ↹  ┃ b  <│ é  >│ p ?[│ o !]│ è   │ z  =│ v ⇇7│ d ↑8│ l ⇉9│ f  *│ m  /│ ^ æœ││ˆ `µ││
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┲━━━━┷┳━━━━┷━━━━━━┪
 // ┃        ┃ A À4│ U Ù5│ I  6│ E Ê%│ :   │ C Ç©│ T ⇧←│ S ⇧↓│ R ⇧→│ N   ┃     ┃           ┃
@@ -222,8 +222,8 @@ xkb_symbols "bepo-code-qwerty" {
     key <AD08> { [              i,              I,              d,              D,             Up,           none,              8,          U2191 ] };
     key <AD09> { [              o,              O,              l,              L,            End,           none,              9,          U2195 ] };
     key.type[group1]="BEPO_XXERTY_HYPER";
-    key <AD10> { [              p,              P,              f,              F,           none,           none,       asterisk                 ] };
-    key <AD11> { [    bracketleft,      braceleft,              m,              M,           none,           none,          slash                 ] };
+    key <AD10> { [              p,              P,              f,              F,           none,           none,       asterisk,          U2713 ] };
+    key <AD11> { [    bracketleft,      braceleft,              m,              M,           none,           none,          slash,          U2717 ] };
     key <AD12> { [   bracketright,     braceright,    asciicircum,             mu,             ae,             AE,             oe,             OE ] };
     key <BKSL> { [      backslash,            bar, dead_circumflex, dead_diaeresis,    dead_grave,     dead_acute,     dead_greek,  dead_currency ] };
 
