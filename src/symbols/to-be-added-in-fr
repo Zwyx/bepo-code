@@ -85,15 +85,15 @@ xkb_symbols "bepo-code-azerty" {
     key <AD02> { [              z,              Z,         eacute,         Eacute,           none,           none,        greater,              2 ] };
     key <AD03> { [              e,              E,              p,              P,       question,           none,    bracketleft,              3 ] };
     key <AD04> { [              r,              R,              o,              O,         exclam,           none,   bracketright,          equal ] };
-    key <AD05> { [              t,              T,         egrave,         Egrave                                                                 ] };
-    key <AD06> { [              y,              Y,              z,              Z,           none,           none,          equal                 ] };
+    key <AD05> { [              t,              T,         egrave,         Egrave,           none,           none,          U2713,          U2714 ] };
+    key <AD06> { [              y,              Y,              z,              Z,           none,           none,          U2717,          U2718 ] };
     key.type[group1]="BEPOCODE";
     key <AD07> { [              u,              U,              v,              V,           Home,           none,              7,          U2194 ] };
     key <AD08> { [              i,              I,              d,              D,             Up,           none,              8,          U2191 ] };
     key <AD09> { [              o,              O,              l,              L,            End,           none,              9,          U2195 ] };
     key.type[group1]="BEPO_XXERTY_HYPER";
-    key <AD10> { [              p,              P,              f,              F,           none,           none,       asterisk,          U2713 ] };
-    key <AD11> { [ dead_circumflex, dead_diaeresis,             m,              M,           none,           none,          slash,          U2717 ] };
+    key <AD10> { [              p,              P,              f,              F,           none,           none,       asterisk                 ] };
+    key <AD11> { [ dead_circumflex, dead_diaeresis,             m,              M,           none,           none,          slash                 ] };
     key <AD12> { [         dollar,       sterling,    asciicircum,             mu,             ae,             AE,             oe,             OE ] };
 
     // Third row
@@ -215,15 +215,15 @@ xkb_symbols "bepo-code-qwerty" {
     key <AD02> { [              w,              W,         eacute,         Eacute,           none,           none,        greater,              2 ] };
     key <AD03> { [              e,              E,              p,              P,       question,           none,    bracketleft,              3 ] };
     key <AD04> { [              r,              R,              o,              O,         exclam,           none,   bracketright,          equal ] };
-    key <AD05> { [              t,              T,         egrave,         Egrave                                                                 ] };
-    key <AD06> { [              y,              Y,              z,              Z,           none,           none,          equal                 ] };
+    key <AD05> { [              t,              T,         egrave,         Egrave,           none,           none,          U2713,          U2714 ] };
+    key <AD06> { [              y,              Y,              z,              Z,           none,           none,          U2717,          U2718 ] };
     key.type[group1]="BEPOCODE";
     key <AD07> { [              u,              U,              v,              V,           Home,           none,              7,          U2194 ] };
     key <AD08> { [              i,              I,              d,              D,             Up,           none,              8,          U2191 ] };
     key <AD09> { [              o,              O,              l,              L,            End,           none,              9,          U2195 ] };
     key.type[group1]="BEPO_XXERTY_HYPER";
-    key <AD10> { [              p,              P,              f,              F,           none,           none,       asterisk,          U2713 ] };
-    key <AD11> { [    bracketleft,      braceleft,              m,              M,           none,           none,          slash,          U2717 ] };
+    key <AD10> { [              p,              P,              f,              F,           none,           none,       asterisk                 ] };
+    key <AD11> { [    bracketleft,      braceleft,              m,              M,           none,           none,          slash                 ] };
     key <AD12> { [   bracketright,     braceright,    asciicircum,             mu,             ae,             AE,             oe,             OE ] };
     key <BKSL> { [      backslash,            bar, dead_circumflex, dead_diaeresis,    dead_grave,     dead_acute,     dead_greek,  dead_currency ] };
 
