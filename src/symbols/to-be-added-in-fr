@@ -18,7 +18,7 @@
 // ┃ Win   ┃                                                                    ┃          ┃
 // ┡━━━━━┯━┹───┬─────┲━━━━━┱─────┬─────┬─────┬─────┲━━━━━┳━━━━━┳━━━━━┱─────┬────┺┳━━━━━━━━━┫
 // │   „§│ « “‘│ » ”’┃     ┃ • —≤│ · ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃         ┃
-// │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃         ┃
+// │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃     ┃ = °ø│ % ½¼┃         ┃
 // ┢━━━━━┷━┱───┴─┬───┺━┯━━━┹─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━┻━┯━━━┻━┯━━━┹─┬───┴─┬───┺━┳━━━━━━━┫
 // ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F  ✓│ M  ✗│ µ ÆŒ┃Entrée ┃
 // ┃Tab ↹  ┃ b  <│ é  >│ p ?[│ o !]│ è   │ z  =│ v ⇇7│ d ↑8│ l ⇉9│ f  *│ m  /│ ^ æœ┃   ⏎   ┃
@@ -46,10 +46,8 @@
 //              3 ==>            Esc
 //              8 ==>         Delete
 //              9 ==>       Backpace
-//            (0 ==>         Return)
 //         Escape ==>          Win_L
 //       Backpace ==>              9
-//       (Return ==>              0)
 //         Delete ==>              8
 //          Win_L ==>          Alt_L
 //          Alt_L ==>        Hyper_L
@@ -76,9 +74,9 @@ xkb_symbols "bepo-code-azerty" {
     key <AE07> { [         egrave,              7,           slash,           none,            yen,           none,       division                 ] };
     key <AE08> { [     underscore,              8,          Delete,         Delete                                                                 ] };
     key <AE09> { [       ccedilla,              9,       BackSpace,      BackSpace                                                                 ] };
-    key <AE10> { [         agrave,              0,          Return,         Return                                                                 ] };
+    key <AE10> { [         agrave,              0                                                                                                  ] };
     key <AE11> { [     parenright,         degree,           equal,       notequal,         degree,        minutes,         oslash,       Ooblique ] };
-    key <AE12> { [          equal,           plus,        percent,          U2030,        onehalf,        seconds,     onequarter,  threequarters ] };
+    key <AE12> { [          equal,           plus,         percent,          U2030,        onehalf,        seconds,     onequarter,  threequarters ] };
 
     // Second row
     key <AD01> { [              a,              A,              b,              B,           none,           none,           less,              1 ] };
@@ -148,7 +146,7 @@ xkb_symbols "bepo-code-azerty" {
 // ┃ Win   ┃                                                                    ┃         ┃
 // ┡━━━━━┯━┹───┬─────┲━━━━━┱─────┬─────┬─────┬─────┲━━━━━┳━━━━━┳━━━━━┱─────┬────┺┳━━━━━━━━┫
 // │   „§│ « “‘│ » ”’┃     ┃ • —≤│ · ±≥│     │     ┃     ┃     ┃     ┃ ≠ ′Ø│ ‰ ″¾┃        ┃
-// │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃(⏎)  ┃ = °ø│ % ½¼┃        ┃
+// │ `  ¶│ " &&│ ' ||┃ Esc ┃ - –?│ + €!│ *  ×│ /  ÷┃ Del ┃ ⌫   ┃     ┃ = °ø│ % ½¼┃        ┃
 // ┢━━━━━┷━┱───┴─┬───┺━┯━━━┹─┬───┴─┬───┴─┬───┴─┬───┺━┯━━━┻━┯━━━┻━┯━━━┹─┬───┴─┬───┺━┯━━━━━━┩
 // ┃       ┃ B  1│ É  2│ P  3│ O  =│ È   │ Z   │ V ⇧↔│ D ⇧↑│ L ⇧↕│ F  ✓│ M  ✗│ µ ÆŒ││¨ ˊ¤││
 // ┃Tab ↹  ┃ b  <│ é  >│ p ?[│ o !]│ è   │ z  =│ v ⇇7│ d ↑8│ l ⇉9│ f  *│ m  /│ ^ æœ││ˆ `µ││
@@ -176,10 +174,8 @@ xkb_symbols "bepo-code-azerty" {
 //              3 ==>            Esc
 //              8 ==>         Delete
 //              9 ==>       Backpace
-//            (0 ==>         Return)
 //         Escape ==>          Win_L
 //       Backpace ==>              9
-//       (Return ==>              0)
 //         Delete ==>              8
 //          Win_L ==>          Alt_L
 //          Alt_L ==>        Hyper_L
@@ -206,7 +202,7 @@ xkb_symbols "bepo-code-qwerty" {
     key <AE07> { [              7,      ampersand,          slash,           none,            yen,           none,       division                 ] };
     key <AE08> { [              8,       asterisk,         Delete,         Delete                                                                 ] };
     key <AE09> { [              9,      parenleft,      BackSpace,      BackSpace                                                                 ] };
-    key <AE10> { [              0,     parenright,         Return,         Return                                                                 ] };
+    key <AE10> { [              0,     parenright                                                                                                 ] };
     key <AE11> { [          minus,     underscore,          equal,       notequal,         degree,        minutes,         oslash,       Ooblique ] };
     key <AE12> { [          equal,           plus,        percent,          U2030,        onehalf,        seconds,     onequarter,  threequarters ] };
 

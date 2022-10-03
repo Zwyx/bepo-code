@@ -19,8 +19,7 @@ default xkb_keycodes "evdev" {
 	<AE08> = 119;
 	// For Bepo-Code <AE09> = 18;
 	<AE09> = 22;
-	// For Bepo-Code <AE10> = 19;
-	// <AE10> = 36;
+	<AE10> = 19;
 	<AE11> = 20;
 	<AE12> = 21;
 	// For Bepo-Code <BKSP> = 22;
@@ -41,8 +40,6 @@ default xkb_keycodes "evdev" {
 	<AD12> = 35;
 	<BKSL> = 51;
 	alias <AC12> = <BKSL>;
-	// For Bepo-Code <RTRN> = 36;
-	// <RTRN> = 19;
 	<RTRN> = 36;
 
 	// For Bepo-Code <CAPS> = 66;
