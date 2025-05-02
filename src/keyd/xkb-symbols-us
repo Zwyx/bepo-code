@@ -1,0 +1,63 @@
+This is a complement to the keyd configuration, allowing direct support for special characters.
+Place the following in the file `/usr/share/X11/xkb/symbols/us`.
+
+partial alphanumeric_keys
+xkb_symbols "bepo-code-keyd" {
+    include "us(basic)"
+    include "level3(ralt_switch)"
+
+    name[Group1]= "English (US, Bepo-Code Keyd)";
+
+    key <TLDE> {[            grave,       asciitilde,             none,             none ]};
+    key <AE01> {[                1,           exclam,             none,             none ]};
+    key <AE02> {[                2,               at,             none,             none ]};
+    key <AE03> {[                3,       numbersign,             none,             none ]};
+    key <AE04> {[                4,           dollar,             none,             none ]};
+    key <AE05> {[                5,          percent,             none,             none ]};
+    key <AE06> {[                6,      asciicircum,             none,             none ]};
+    key <AE07> {[                7,        ampersand,             none,             none ]};
+    key <AE08> {[                8,         asterisk,             none,             none ]};
+    key <AE09> {[                9,        parenleft,             none,             none ]};
+    key <AE10> {[                0,       parenright,             none,             none ]};
+    key <AE11> {[            minus,       underscore,             none,             none ]};
+    key <AE12> {[            equal,             plus,             none,             none ]};
+
+    key <AD01> {[                q,                Q,           eacute,           Eacute ]}; // é É
+    key <AD02> {[                w,                W,           egrave,           Egrave ]}; // è È
+    key <AD03> {[                e,                E,           agrave,           Agrave ]}; // à À
+    key <AD04> {[                r,                R,           ugrave,           Ugrave ]}; // ù ù
+    key <AD05> {[                t,                T,      ecircumflex,      Ecircumflex ]}; // ê Ê
+    key <AD06> {[                y,                Y,      icircumflex,      Icircumflex ]}; // î Î
+    key <AD07> {[                u,                U,         ccedilla,         Ccedilla ]}; // ç Ç
+    key <AD08> {[                i,                I,               ae,               AE ]}; // æ Æ
+    key <AD09> {[                o,                O,               oe,               OE ]}; // œ Œ
+    key <AD10> {[                p,                P,  dead_circumflex,   dead_diaeresis ]}; // ^ ¨
+    key <AD11> {[      bracketleft,        braceleft,       dead_acute,       dead_grave ]}; // ´ `
+    key <AD12> {[     bracketright,       braceright,       dead_greek,             none ]}; // µ
+    key <BKSL> {[        backslash,              bar,         EuroSign,             none ]}; // €
+
+    key <AC01> {[                a,                A,    guillemotleft,    guillemotleft ]}; // « »
+    key <AC02> {[                s,                S,    lessthanequal, greaterthanequal ]}; // ≤ ≥
+    key <AC03> {[                d,                D,         multiply,         division ]}; // × ÷
+    key <AC04> {[                f,                F,        plusminus,           oslash ]}; // ± ø
+    key <AC05> {[                g,                G,     similarequal,         notequal ]}; // ≃ ≠
+    key <AC06> {[                h,                H,          onehalf,           degree ]}; // ½ °
+    key <AC07> {[                j,                J,       onequarter,    threequarters ]}; // ¼ ¾
+    key <AC08> {[                k,                K,           endash,           emdash ]}; // – —
+    key <AC09> {[                l,                L,            U2022,   periodcentered ]}; // • ·
+    key <AC10> {[        semicolon,            colon,            U2713,            U2714 ]}; // ✓ ✔
+    key <AC11> {[       apostrophe,         quotedbl,            U2717,            U2718 ]}; // ✗ ✘
+
+    key <AB01> {[                z,                Z,            U2191,            U2193 ]}; // ↑ ↓
+    key <AB02> {[                x,                X,            U2190,            U2192 ]}; // ← →
+    key <AB03> {[                c,                C,            U2194,            U2195 ]}; // ↔ ↕
+    key <AB04> {[                v,                V,            U00AF,            U30C4 ]}; // ¯ ツ
+    key <AB05> {[                b,                B,             none,             none ]};
+    key <AB06> {[                n,                N,             none,             none ]};
+    key <AB07> {[                m,                M,             none,             none ]};
+    key <AB08> {[            comma,             less,             none,             none ]};
+    key <AB09> {[           period,          greater,             none,             none ]};
+    key <AB10> {[            slash,         question,             none,             none ]};
+
+    key <SPCE> { [           space,     nobreakspace,             none,             none ]};
+};

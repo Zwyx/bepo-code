@@ -1,0 +1,8 @@
+Place the following in the US layout section in the file `/usr/share/X11/xkb/rules/evdev.xml`.
+
+<variant>
+  <configItem>
+    <name>bepo-code-keyd</name>
+    <description>English (US, Bepo-Code Keyd)</description>
+  </configItem>
+</variant>
