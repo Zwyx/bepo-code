@@ -36,7 +36,7 @@ xkb_symbols "bepo-code-keyd" {
     key <AD12> {[     bracketright,       braceright,       dead_greek,             none ]}; // µ
     key <BKSL> {[        backslash,              bar,         EuroSign,             none ]}; // €
 
-    key <AC01> {[                a,                A,    guillemotleft,    guillemotleft ]}; // « »
+    key <AC01> {[                a,                A,    guillemotleft,   guillemotright ]}; // « »
     key <AC02> {[                s,                S,    lessthanequal, greaterthanequal ]}; // ≤ ≥
     key <AC03> {[                d,                D,         multiply,         division ]}; // × ÷
     key <AC04> {[                f,                F,        plusminus,           oslash ]}; // ± ø

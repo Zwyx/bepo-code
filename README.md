@@ -36,12 +36,11 @@ Key functions:
 - `{layer}`: toggles `layer` (`layer` stays active until toggled back, or `clear` is called)
 - `layer+`: activates `layer` if hold, and also for the next key press if tapped
 - `(function)`: runs `function`, example: `(clear)` restores the `main` layer
-- `- key -`: `key` is a dead key
-- `key1 · key2`: enters `key1`, `key2`, and `left`, to place the cursor between `key1` and `key2`
+- `key1·key2`: enters `key1`, `key2`, and `left`, to place the cursor between `key1` and `key2`
 
 <div align="center">
 
-![](/src/keyfab/Bepo-Code.png)
+![](/src/keyfab/Bepo-Code.webp)
 
 _Image created using [jaroslaw-weber.github.io/keyfab](https://jaroslaw-weber.github.io/keyfab)._
 
